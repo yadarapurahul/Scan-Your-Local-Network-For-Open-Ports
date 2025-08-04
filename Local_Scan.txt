@@ -1,0 +1,21 @@
+# Nmap 7.95 scan initiated Mon Aug  4 19:19:53 2025 as: /usr/lib/nmap/nmap -sS -oN Local_Scan.txt 192.168.37.248/24
+Nmap scan report for 192.168.37.57
+Host is up (0.013s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: DA:D8:FA:6A:0F:10 (Unknown)
+
+Nmap scan report for 192.168.37.89
+Host is up (0.00050s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: F4:6D:3F:48:59:18 (Intel Corporate)
+
+Nmap scan report for 192.168.37.248
+Host is up (0.0000020s latency).
+All 1000 scanned ports on 192.168.37.248 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Aug  4 19:20:06 2025 -- 256 IP addresses (3 hosts up) scanned in 12.85 seconds
