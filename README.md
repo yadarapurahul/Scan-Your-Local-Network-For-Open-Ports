@@ -15,7 +15,7 @@ Scanned the local network for open ports using Nmap on Kali Linux. Performed TCP
 7. Researched common services on open ports using the command **sudo nmap -sS -sV local IP address**
 8. Identified potential security risks associated with open ports.
 9. I saved the result in text format using the command **sudo nmap -sS local IP address -oN file_name.txt**
-10. I save as in also HTML format, but I do directly not save HTML format. I do first saved in XML, then convert to  HTML, for the XM command is **sudo nmap -sS local IP address -oX file_name** and the HTML command is **xsltproc file_name.xml -o file_name.html**
+10. I save as in also HTML format, but I do not directly save HTML format. I do first saved in XML, then convert to  HTML, for the XML command is **sudo nmap -sS local IP address -oX file_name** and the HTML command is **xsltproc file_name.xml -o file_name.html**
 11. I captured a screenshot of the Nmap version and the scan process.
 
 ## Findings:
